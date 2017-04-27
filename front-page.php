@@ -15,12 +15,11 @@
 get_header('index'); ?>
 
  <div class="inner cover">
-	<h1 class="cover-heading">Connect and Sell Digital</h1>
-	<p class="lead">Peruse is an API integration that opens the doors to your online marketplace</p>
+	<h1 class="cover-heading">Whatever the opposite of a paywall is.</h1>
+	<p class="lead">Peruse is an API integration that connects users to content and increases revenue</p>
 	<p class="lead">
 	  <a href="https://app.goperuse.com/signup" class="btn btn-lg btn-secondary"><span>Get Started</span></a>
 	</p>
 </div>
-
 
 <?php get_footer('index');
