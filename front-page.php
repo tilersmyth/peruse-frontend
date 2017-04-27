@@ -15,8 +15,11 @@
 get_header('index'); ?>
 
  <div class="inner cover">
-	<h1 class="cover-heading">Whatever the opposite of a paywall is.</h1>
-	<p class="lead">Peruse is an API integration that connects users to content and increases revenue</p>
+	<?php while ( have_posts() ) : the_post();
+
+		the_content();
+
+	endwhile; ?>
 	<p class="lead">
 	  <a href="https://app.goperuse.com/signup" class="btn btn-lg btn-secondary"><span>Get Started</span></a>
 	</p>
